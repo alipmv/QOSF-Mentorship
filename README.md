@@ -6,3 +6,5 @@ The file task1-v1 uses scipy.optimize.minimize to minimize the cost function and
 In task1-v2 a parametric circuit is built in the begining and the parameters are updated by minimize function.
 
 In task1-v2-bonus the Rx gates in the odd blocks have been replaced by Ry gates. The final circuit converges with almost the same order of magnitude of layer numbers and optimization time.
+
+In task1-v2.1 minimization method has been changed to method='L-BFGS-B' which provides faster convergence.
